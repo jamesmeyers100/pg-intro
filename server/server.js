@@ -9,5 +9,5 @@ app.use(bodyParser.json());
 const songRouter = require('./routes/song.router');
 app.use('/song', songRouter);
 
-const PORT = process.eventNames.PORT || 5000;
-app.listen(PORT, () => console.log(`listening on port ${PORT}`));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`listening on port ${PORT}`))

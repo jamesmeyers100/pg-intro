@@ -1,7 +1,7 @@
 {
   "name": "pg-intro",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Songs API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,14 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "pg": "^7.4.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmeyers88/pg-intro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesmeyers88/pg-intro/issues"
+  },
+  "homepage": "https://github.com/jamesmeyers88/pg-intro#readme"
 }
